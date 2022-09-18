@@ -1,0 +1,151 @@
+html {
+    background-color: #deded8;
+    font-family: trebuchet, geneva, sans-serif;
+  }
+body {
+    margin: 0;
+}
+
+.main-nav {
+    display: flex;
+    background: orangered;
+    color: white;
+    border-radius: 3px;
+    padding: 1em;
+    align-items: center;
+}
+
+.main-nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 3;
+    align-items: center;
+}
+
+.main-nav li {
+    margin-right: 1em;
+}
+
+.main-nav li a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.main-nav > form {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.main-nav input {
+    flex: 1;
+    height: 2rem;
+}
+
+.main-nav button {
+    background: white;
+    border: 0;
+    border-radius: 1em;
+    color: orangered;
+    padding: 0 1em;
+    margin-left: .3em;
+    height: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 575px) {
+    .main-nav {
+        flex-direction: column;
+    }
+    .main-nav ul {
+        flex-direction: row; /* Change this to 'column' to stack the links */
+        margin-bottom: 1em;
+    }
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-bottom: 0.5rem solid;
+    align-items: center;
+    padding: 2em;
+}
+
+.headline {
+    text-align: center;
+    flex: 50%;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    border-bottom: 0.5rem solid;
+    align-items: center;
+    padding: 3em;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.card {
+    flex: 20%;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    align-content: center;
+    text-align: center;
+} 
+
+.card img {
+    max-width: 100%;
+}
+
+.card .text {
+    padding: 0 20px 20px;
+}
+
+.card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+footer{
+    background: black;
+    color: #fff;
+    padding: 2em;
+}
+
+footer > section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+}
+
+footer > section > article {
+    
+    flex: 15%;
+    margin: 1rem;
+}
+
+footer > section > article > ul {
+    list-style-type: none;
+}
+
+
+.footer_cabecera {
+    text-align: center;    
+}
