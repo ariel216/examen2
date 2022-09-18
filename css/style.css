@@ -1,5 +1,5 @@
 html {
-    background-color: #deded8;
+    background-color: #F6F7FF;
     font-family: trebuchet, geneva, sans-serif;
   }
 body {
@@ -8,11 +8,12 @@ body {
 
 .main-nav {
     display: flex;
-    background: orangered;
+    background: #435AD0;
     color: white;
     border-radius: 3px;
     padding: 1em;
     align-items: center;
+    box-shadow: 4px 4px 4px 1px  rgba(0,0,0,0.3);
 }
 
 .main-nav > ul {
@@ -28,9 +29,14 @@ body {
     margin-right: 1em;
 }
 
+
 .main-nav li a {
     color:#fff;
     text-decoration: none;
+}
+
+.main-nav li a:hover {    
+    border-bottom: 0.3rem solid #FF5959;
 }
 
 .main-nav > form {
@@ -42,13 +48,14 @@ body {
 .main-nav input {
     flex: 1;
     height: 2rem;
+    border-radius: 1em;
 }
 
 .main-nav button {
-    background: white;
+    background: #FF5959;
     border: 0;
     border-radius: 1em;
-    color: orangered;
+    color: white;
     padding: 0 1em;
     margin-left: .3em;
     height: 2rem;
@@ -100,11 +107,11 @@ main {
 .card {
     flex: 20%;
     margin: 1rem;
-    border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
     align-content: center;
     text-align: center;
 } 
+
 
 .card img {
     max-width: 100%;
@@ -115,17 +122,20 @@ main {
 }
 
 .card .text > button {
-    background: gray;
-    border: 0;
+    background: #FF5959;
     color: white;
+    border: 0;
     padding: 10px;
     width: 100%;
+    border-radius: 1em;
+    cursor: pointer;
 }
 
 footer{
-    background: black;
+    background: #435AD0;
     color: #fff;
     padding: 2em;
+    box-shadow: 4px 4px 4px 5px  rgba(0,0,0,0.3);
 }
 
 footer > section {
@@ -148,4 +158,20 @@ footer > section > article > ul {
 
 .footer_cabecera {
     text-align: center;    
+}
+
+.botton_footer{
+    background: #FF5959;
+    border: 0;
+    border-radius: 1em;
+    color: white;
+    padding: 0 1em;
+    margin-left: .3em;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.input_footer{
+    height: 2rem;
+    border-radius: 1em;
 }
