@@ -45,6 +45,13 @@ body {
     flex: 1;
 }
 
+.main-nav > label {
+    font-size: 2rem;
+    flex: 1;
+    height: 2rem;
+    border-radius: 1em;
+}
+
 .main-nav input {
     flex: 1;
     height: 2rem;
@@ -174,4 +181,9 @@ footer > section > article > ul {
 .input_footer{
     height: 2rem;
     border-radius: 1em;
+}
+
+.flag{
+    height: 20px;
+    width: 30px;
 }
