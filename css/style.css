@@ -188,15 +188,40 @@ footer > section > article > ul {
     border-radius: 100px;    
 }
 
-.slider {
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    align-items: center;
+.site_map{
+    align-content: flex-start;
+}
+
+.social_link{
+    color: #fff;
+}
+
+.titulo_medio{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.slider{
+    position: relative;
 }
 
 .slider img{
     width: 100%;
     object-fit: cover;
     height: 29rem;
+}
+
+.first-txt {
+    position: absolute;
+    top: 17px;
+    left: 20px;
+    color: #fff;
+}
+
+.second-txt {
+    position: absolute;
+    top: 17px;
+    left: 150px;
+    color: #fff;
+    font-size: 5rem;
 }
