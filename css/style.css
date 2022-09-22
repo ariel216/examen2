@@ -80,7 +80,7 @@ body {
         flex-direction: column;
     }
     .main-nav ul {
-        flex-direction: row; /* Change this to 'column' to stack the links */
+        flex-direction: row;
         margin-bottom: 1em;
     }
 }
@@ -94,9 +94,35 @@ main {
 
 .headline {
     text-align: center;
-    flex: 50%;
+    flex: 25%;
 }
 
+.btn_top{
+    background: #00CA52;
+    color: white;
+    border: 0;
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+    border-left: 0.5rem solid #fff;
+}
+
+.btn_left{
+    background: #00CA52;
+    color: white;
+    border: 0;
+    padding: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn_top:hover{
+    background: #07a747;
+}
+
+.btn_left:hover{
+    background: #07a747;
+}
 .cards {
     display: flex;
     flex-wrap: wrap;
