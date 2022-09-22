@@ -6,9 +6,15 @@ body {
     margin: 0;
 }
 
+.logo{
+    border: 5px solid white;
+    border-radius: 100px;
+    height: 60px;    
+}
+
 .main-nav {
     display: flex;
-    background: #435AD0;
+    background: #41228E;
     color: white;
     border-radius: 3px;
     padding: 1em;
@@ -36,7 +42,7 @@ body {
 }
 
 .main-nav li a:hover {    
-    border-bottom: 0.3rem solid #FF5959;
+    border-bottom: 0.3rem solid #00CA52;
 }
 
 .main-nav > form {
@@ -59,7 +65,7 @@ body {
 }
 
 .main-nav button {
-    background: #FF5959;
+    background: #00CA52;
     border: 0;
     border-radius: 1em;
     color: white;
@@ -83,23 +89,12 @@ main {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    border-bottom: 0.5rem solid;
     align-items: center;
-    padding: 2em;
 }
 
 .headline {
     text-align: center;
     flex: 50%;
-}
-
-.slider {
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    border-bottom: 0.5rem solid;
-    align-items: center;
-    padding: 3em;
 }
 
 .cards {
@@ -129,7 +124,7 @@ main {
 }
 
 .card .text > button {
-    background: #FF5959;
+    background: #00CA52;
     color: white;
     border: 0;
     padding: 10px;
@@ -139,7 +134,7 @@ main {
 }
 
 footer{
-    background: #435AD0;
+    background: #41228E;
     color: #fff;
     padding: 2em;
     box-shadow: 4px 4px 4px 5px  rgba(0,0,0,0.3);
@@ -168,7 +163,7 @@ footer > section > article > ul {
 }
 
 .botton_footer{
-    background: #FF5959;
+    background: #00CA52;
     border: 0;
     border-radius: 1em;
     color: white;
@@ -186,4 +181,22 @@ footer > section > article > ul {
 .flag{
     height: 20px;
     width: 30px;
+}
+
+.logo_footer{
+    border: 5px solid white;
+    border-radius: 100px;    
+}
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.slider img{
+    width: 100%;
+    object-fit: cover;
+    height: 29rem;
 }

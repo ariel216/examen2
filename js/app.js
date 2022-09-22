@@ -34,7 +34,7 @@ btnCambio.addEventListener("click", calcularCambio);
 function calcularCambio(){  
     let valorBs = document.getElementById('valorBs').value;
     let resultado = valorBs*cambioDolar;
-    document.getElementById("resultadoCambio").innerHTML = resultado.toFixed(2);
+    document.getElementById("resultadoCambio").innerHTML = `${resultado.toFixed(2)} Bs.-`;
 };
 
 
